@@ -11,4 +11,4 @@ appender('STDOUT', ConsoleAppender) {
 
 root(ERROR, ['STDOUT'])
 
-logger 'gormdemo.PersonDemo', INFO, ['STDOUT'], false
+logger 'gormdemo.GormDemo', INFO, ['STDOUT'], false
